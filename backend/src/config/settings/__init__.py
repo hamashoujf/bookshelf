@@ -1,6 +1,5 @@
 import os
 
-
 environment = os.getenv("DJANGO_ENV", "development")
 
 if environment == "production":
