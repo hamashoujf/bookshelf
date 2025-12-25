@@ -1,7 +1,7 @@
 from .base import *
 
-env.read_env(env_file=BASE_DIR / ".env.development", overwrite=True)
-env.read_env(env_file=BASE_DIR / ".env.development.local", overwrite=True)
+env.read_env(env_file=BASE_DIR / ".env.production", overwrite=True)
+env.read_env(env_file=BASE_DIR / ".env.production.local", overwrite=True)
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
